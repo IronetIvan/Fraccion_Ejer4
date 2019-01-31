@@ -15,7 +15,17 @@ public class Fraccion_Ejer4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        fraccion numerador =  new fraccion();
+        numerador.setNumerador(0);
+        numerador.setDenominador(0);
+        fraccion invierte = new fraccion();
+        fraccion multiplica = new fraccion();
+        fraccion divide = new fraccion();
+        
+        
+        System.out.println(fraccion.divide(4, 2));
+        System.out.println(fraccion.invierte(4, 2));
+        System.out.println(fraccion.multiplica(4, 2));
     }
     
 }
