@@ -23,9 +23,9 @@ public class Fraccion_Ejer4 {
         fraccion divide = new fraccion();
         
         
-        System.out.println(fraccion.divide(4, 2));
-        System.out.println(fraccion.invierte(4, 2));
-        System.out.println(fraccion.multiplica(4, 2));
+        System.out.println("Divide: "+ fraccion.divide( 4, 2));
+        System.out.println("Invierte: "+ fraccion.invierte(4, 2));
+        System.out.println("Multiplica: "+ fraccion.multiplica(4, 2));
     }
     
 }
